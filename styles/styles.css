@@ -11041,7 +11041,15 @@ p {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  padding: 120px 0;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 100vh;
+    padding: 0;
+  }
 }
 
 .overlay {
