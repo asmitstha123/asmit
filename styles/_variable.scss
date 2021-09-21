@@ -1,0 +1,31 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+$primary: #0D0E0A;
+$secondary: #FFF68A;
+$faded-secondary:rgba(255, 250, 191, 1);
+$text-muted:#6D6D6D;
+$stroke: #E5E5E5;
+$gray:  #F2F2F2;
+$red: #dc3545;
+$cyan:#0dcaf0;
+$yellow:#ffc107;
+$white:#fff;
+
+
+
+  $spacer: 1rem;
+  $spacers: (
+    0: 0,
+    1: ($spacer * .25),         //4 px
+    2: ($spacer * .5),          //8 px
+    3: $spacer,                 //16px
+    4: ($spacer * 1.5),         //24px
+    5: ($spacer * 2),           //32px
+    6: ($spacer * 3),           //48px
+    7:($spacer * 4.25)          //68 px
+  );
+
+ 
