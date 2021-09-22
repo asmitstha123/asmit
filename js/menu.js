@@ -8,11 +8,7 @@ var elemnt = document.getElementById("menu");
                 document.getElementById("menu").classList.toggle("show");
                 document.getElementById("header").classList.toggle("header-show");
                 document.getElementById("main").classList.toggle("display-main");
-         
                 document.getElementById("icon").classList.toggle("close-menu");
-
-
-             
             }
 
         // Background color js here
