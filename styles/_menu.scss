@@ -95,7 +95,7 @@ header.header-show{
   top: 0;
   height: 100vh;
   transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
-  width: 30%;
+  width: 45%;
 
   @include media-breakpoint-up(lg){
     width: 20%;
@@ -110,8 +110,11 @@ header.header-show{
 }
 
 .menu-list li{
-  padding: 0 60px;
+  padding: 0 35px;
   width: 100%;
+  @include media-breakpoint-up(lg){
+    padding: 0 60px;
+  }
 }
 
 .menu-list li + li{
@@ -124,7 +127,7 @@ main{
 }
 
 .display-main{
-  width: 70%;
+  width: 55%;
   transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
   @include media-breakpoint-up(lg){
     width: 80%;

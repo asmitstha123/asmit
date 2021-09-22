@@ -11170,7 +11170,7 @@ header.header-show {
   top: 0;
   height: 100vh;
   transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
-  width: 30%;
+  width: 45%;
 }
 
 @media (min-width: 992px) {
@@ -11186,8 +11186,14 @@ header.header-show {
 }
 
 .menu-list li {
-  padding: 0 60px;
+  padding: 0 35px;
   width: 100%;
+}
+
+@media (min-width: 992px) {
+  .menu-list li {
+    padding: 0 60px;
+  }
 }
 
 .menu-list li + li {
@@ -11200,7 +11206,7 @@ main {
 }
 
 .display-main {
-  width: 70%;
+  width: 55%;
   transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
 }
 
