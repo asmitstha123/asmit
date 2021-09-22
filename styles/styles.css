@@ -11122,12 +11122,6 @@ a {
   margin-bottom: 6px;
 }
 
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .header-inner {
   position: relative;
 }
