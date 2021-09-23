@@ -20,6 +20,8 @@ a{
 
 .clearfix{
   height: 100vh;
+  overflow-y:auto;
+  overflow-x: clip;
 }
 .clearfix:after{
   content: none;
