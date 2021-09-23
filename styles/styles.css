@@ -11089,6 +11089,10 @@ a {
   height: 100vh;
 }
 
+.clearfix {
+  height: 100vh;
+}
+
 .clearfix:after {
   content: none;
   display: table;
@@ -11097,6 +11101,7 @@ a {
 
 .wrapper {
   position: relative;
+  height: 100vh;
 }
 
 .top-logo {
@@ -11156,7 +11161,7 @@ a {
 }
 
 header {
-  transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
+  transition: all 0.5s ease-out;
   width: 0;
   overflow: hidden;
 }
@@ -11165,7 +11170,7 @@ header.header-show {
   position: sticky;
   top: 0;
   height: 100vh;
-  transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
+  transition: all 0.5s ease-out;
   width: 45%;
 }
 
@@ -11198,12 +11203,12 @@ header.header-show {
 
 main {
   width: 100%;
-  transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
+  transition: all 0.5s ease-out;
 }
 
 .display-main {
   width: 55%;
-  transition: all 1s cubic-bezier(0.1, 0.1, 0.25, 1);
+  transition: all 0.5s ease-out;
 }
 
 @media (min-width: 992px) {
