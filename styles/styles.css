@@ -10423,7 +10423,8 @@ header {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   width: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh; }
 
 header.header-show {
   position: -webkit-sticky;
