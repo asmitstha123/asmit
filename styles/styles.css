@@ -10301,9 +10301,6 @@ p {
   background: linear-gradient(151.73deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 88.71%);
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px); }
-  @media (min-width: 992px) {
-    .overlay {
-      height: 100%; } }
 
 .hero-img::after {
   content: "";
@@ -10361,8 +10358,7 @@ a {
   clear: none; }
 
 .wrapper {
-  position: relative;
-  height: 100vh; }
+  position: relative; }
 
 .top-logo {
   text-align: center;
