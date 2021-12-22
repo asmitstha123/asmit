@@ -29,9 +29,12 @@ a{
 
 
 .clearfix{
-  height: 100vh;
-  overflow-y:auto;
+  overflow-y: auto;
   overflow-x: clip;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 .clearfix:after{
   content: none;
