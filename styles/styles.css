@@ -10287,13 +10287,14 @@ p {
   padding: 120px 0; }
   @media (min-width: 768px) {
     .hero {
-      height: 100vh;
+      height: 100%;
       padding: 0; } }
 
 .overlay {
   background: linear-gradient(151.73deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 88.71%);
   -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px); }
+          backdrop-filter: blur(40px);
+  height: 100%; }
 
 .hero-img::after {
   content: "";
@@ -10561,8 +10562,11 @@ img {
   background-repeat: no-repeat;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   color: #212529; }
+  @media (min-width: 992px) {
+    .slide {
+      padding: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */

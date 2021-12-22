@@ -7,8 +7,11 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   color:$dark;
 
+  @include media-breakpoint-up(lg){
+    padding: 30px;
+  }
 }
