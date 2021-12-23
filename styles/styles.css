@@ -10344,13 +10344,18 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 992px) {
+    .clearfix {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .clearfix:after {
   content: none;
@@ -10581,7 +10586,7 @@ img {
   background-repeat: no-repeat;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  padding: 20px;
+  padding: 16px;
   border-radius: 12px;
   color: #212529; }
   @media (min-width: 992px) {
