@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="menu.js"></script>
@@ -49,7 +50,8 @@
         
                     <div class="container">
                       <div class="row">
-                        <div class="col-lg-6 d-flex flex-column justify-content-center">
+                        <div  data-aos="fade-right"  data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="col-lg-6 d-flex flex-column justify-content-center">
                         <p class="html"> &lt;html&gt; </p>
                                 <p class="html ms-3"> &lt;body&gt; </p>
                                     <p class="html ms-5"> &lt;Info&gt; </p>
@@ -79,7 +81,8 @@
                         <p class="html"> &lt;/html&gt; </p>
                         
                         </div>
-                        <div class="col-lg-6 hero-img text-center">
+                        <div data-aos="fade-left"  data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="col-lg-6 hero-img text-center">
                           <img src="./assets/img/asmit.svg" class="img-fluid" alt="">
                         </div>
                       </div>
@@ -90,6 +93,9 @@
         </main>
     </div>
  
-      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
